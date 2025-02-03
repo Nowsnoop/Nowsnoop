@@ -1,0 +1,334 @@
+html {
+	scroll-behavior:smooth;
+} 
+
+body {
+    background-size:cover;
+    font-family: Sriracha;
+    margin: 0;
+}
+
+nav {
+    background: #a0dcff;
+    background: linear-gradient(
+        to right,
+        #53a4d3, #96d7ff, #35a4df
+    );
+    padding:12px 0px;
+}
+
+nav ul img {
+    float:left;
+    background:white;
+    border-radius: 50%;
+    padding:8px;
+}
+
+nav ul img:hover {
+    float:left;
+    background:white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+nav ul {
+	margin:0;
+	list-style-type:none;
+	overflow:hidden;
+	padding:0 50px;
+}
+
+nav ul li {
+	float:right;
+}
+
+nav ul li a {
+    margin:0px 15px;
+	display:block;
+	padding:25px 50px;
+	color:white;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+    background:white;
+    color:black;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+header p {
+    margin:100px 150px;
+    font-size:120px;
+    font-family: Sriracha;
+    color:lightyellow;
+}
+
+.Add {
+    position:absolute;
+    right:200px;
+    top:250px;
+    backdrop-filter: blur(20px);
+    padding:50px;
+    background:transparent;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px gray;
+}
+
+.Add ul {
+    list-style-type: none;
+}
+
+.Add li a {
+    font-size:25px;
+    font-family: "Mali", serif;
+    color:rgb(41, 41, 85);
+    text-decoration: none;
+}
+
+.Add ul {
+    border-radius: 50px;
+}
+
+.Add:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.Add li a:hover {
+    color:rgb(50, 13, 97);
+    font-size: 30px;
+    text-decoration: underline;
+}
+/* ตั้งค่า Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* CSS สำหรับ Body */
+  body {
+    background-size: cover;
+    font-family: Sriracha, cursive;
+    margin: 0;
+  }
+  
+  /* Navigation */
+  nav {
+    background: linear-gradient(to right, #53a4d3, #96d7ff, #35a4df);
+    padding: 12px 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    /* สำหรับการเรียงลำดับในหน้าจอ Desktop ให้ float:right (หรือใช้ flex) */
+    margin: 5px;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 25px 50px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background: white;
+    color: black;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  /* รูปโลโก้ */
+  nav ul li img {
+    background: white;
+    border-radius: 50%;
+    padding: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  nav ul li img:hover {
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  /* ปรับการแสดงผลสำหรับหน้าจอขนาดเล็กใน Navigation */
+  @media (max-width: 768px) {
+    nav ul {
+      padding: 0 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav ul li a {
+      padding: 15px 20px;
+      margin: 5px 0;
+    }
+  }
+    
+  /* Additional Section for .Add (ถ้ามีการใช้งาน) */
+  .Add {
+    position: absolute;
+    right: 200px;
+    top: 250px;
+    backdrop-filter: blur(20px);
+    padding: 50px;
+    background: transparent;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px gray;
+  }
+  
+  .Add ul {
+    list-style-type: none;
+    border-radius: 50px;
+  }
+  
+  .Add li a {
+    font-size: 25px;
+    font-family: "Mali", serif;
+    color: rgb(41, 41, 85);
+    text-decoration: none;
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .Add li a:hover {
+    color: rgb(50, 13, 97);
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  
+  .Add:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+  
+  /* ปรับการแสดงผล .Add สำหรับหน้าจอขนาดเล็ก */
+  @media (max-width: 768px) {
+    .Add {
+      position: static;
+      margin: 20px auto;
+      padding: 20px;
+    }
+  }
+  /* ตั้งค่า Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* CSS สำหรับ Body */
+  body {
+    background-size: cover;
+    font-family: Sriracha, cursive;
+    margin: 0;
+  }
+  
+  /* Navigation */
+  nav {
+    background: linear-gradient(to right, #53a4d3, #96d7ff, #35a4df);
+    padding: 12px 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  nav ul li {
+    margin: 5px;
+  }
+  
+  nav ul li a {
+    margin: 0 15px;
+    display: block;
+    padding: 25px 50px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background: white;
+    color: black;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  nav ul li img {
+    background: white;
+    border-radius: 50%;
+    padding: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  nav ul li img:hover {
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  /* ถ้ามีส่วน .Add (เพิ่มเติม) */
+  .Add {
+    position: absolute;
+    right: 200px;
+    top: 250px;
+    backdrop-filter: blur(20px);
+    padding: 50px;
+    background: transparent;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px gray;
+  }
+  
+  .Add ul {
+    list-style-type: none;
+    border-radius: 50px;
+  }
+  
+  .Add li a {
+    font-size: 25px;
+    font-family: "Mali", serif;
+    color: rgb(41, 41, 85);
+    text-decoration: none;
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .Add li a:hover {
+    color: rgb(50, 13, 97);
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  
+  .Add:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+  }
+  
+  /* Responsive adjustments สำหรับ Navigation และส่วน .Add */
+  @media (max-width: 768px) {
+    nav ul {
+      padding: 0 20px;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav ul li a {
+      padding: 15px 20px;
+      margin: 5px 0;
+    }
+    
+    .Add {
+      position: static;
+      margin: 20px auto;
+      padding: 20px;
+    }
+  }
+  

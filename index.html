@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สถานที่ท่องเที่ยวในสงขลา</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- รวมฟอนต์ที่ใช้: Mali, Trirong และ Chonburi -->
+  <link href="https://fonts.googleapis.com/css2?family=Mali&family=Trirong&family=Chonburi&display=swap" rel="stylesheet">
+  <style>
+    /* Import ฟอนต์ Chonburi สำหรับข้อความใหญ่ (minit) */
+    @import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+
+    /* ตั้งค่าพื้นหลังและ Scroll Behavior */
+    html {
+      background: url('2016-12-25.gif') no-repeat center center fixed;
+      background-size: cover;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Sriracha, cursive;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background: linear-gradient(to right, #53a4d3, #96d7ff, #35a4df);
+      padding: 12px 0;
+    }
+    nav ul {
+      margin: 0;
+      padding: 0 50px;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    nav ul li {
+      margin: 5px;
+    }
+    nav ul li a {
+      padding: 25px 50px;
+      color: white;
+      text-decoration: none;
+      transition: background 0.3s, color 0.3s;
+    }
+    nav ul li a:hover {
+      background: white;
+      color: black;
+      box-shadow: 0px 0px 10px #ccc;
+    }
+    nav ul li img {
+      border-radius: 50%;
+      padding: 8px;
+      background: white;
+      transition: box-shadow 0.3s;
+    }
+    nav ul li img:hover {
+      box-shadow: 0px 0px 10px #ccc;
+    }
+
+    /* Header Section */
+    header {
+      text-align: center;
+      margin: 80px auto;
+      padding: 20px;
+      position: relative;
+    }
+    /* ข้อความใหญ่ใน header */
+    .minit {
+      font-size: 150px;
+      font-family: 'Chonburi', serif;
+      color: rgb(16, 32, 124);
+      text-shadow: 5px 4px 0px rgb(98, 133, 146);
+      margin: 20px;
+      line-height: 1.1;
+    }
+    /* กล่องเมนูเพิ่มเติม */
+    .Add {
+      position: absolute;
+      right: 200px;
+      top: 250px;
+      backdrop-filter: blur(20px);
+      padding: 50px;
+      background: transparent;
+      border-radius: 50px;
+      box-shadow: 0px 0px 20px gray;
+    }
+    .Add h1 {
+      margin-top: 0;
+      font-size: 30px;
+      font-family: "Mali", serif;
+      color: rgb(41, 41, 85);
+    }
+    .Add ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .Add li {
+      margin: 10px 0;
+    }
+    .Add li a {
+      font-size: 25px;
+      font-family: "Mali", serif;
+      color: rgb(41, 41, 85);
+      text-decoration: none;
+      transition: color 0.3s, font-size 0.3s;
+    }
+    .Add li a:hover {
+      color: rgb(50, 13, 97);
+      font-size: 30px;
+      text-decoration: underline;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      nav ul {
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: center;
+      }
+      nav ul li a {
+        padding: 15px 20px;
+        margin: 5px 0;
+      }
+      header {
+        margin: 40px 20px;
+        padding: 10px;
+      }
+      .minit {
+        font-size: 80px;
+        margin: 10px;
+      }
+      .Add {
+        position: static;
+        margin: 20px auto;
+        padding: 20px;
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><img src="ตรีจักร.png" height="65px" alt="Logo"></li>
+      <li><a href="🥵🥵.html">ผู้จัดทำ</a></li>
+      <li><a href="DUM.html">สถานที่ท่องเที่ยว</a></li>
+      <li><a href="#">หน้าหลัก</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <p class="minit">แหล่งที่เที่ยว<br>แดนสงขลา</p>
+    <div class="Add">
+      <h1>สถานที่ท่องเที่ยว</h1>
+      <ul>
+        <li><a href="KOYO.html">เกาะยอ</a></li>
+        <li><a href="Tem.html">วัดพระมหาเจดีย์ไตรภพไตรมงคล</a></li>
+        <li><a href="HAD.html">หาดสมิหลา</a></li>
+        <li><a href="old.html">ย่านเมืองเก่าสงขลา</a></li>
+        <li><a href="Mountain.html">เขาตังกวน</a></li>
+        <li><a href="KimJongUn.html">ตลาดกิมหยง</a></li>
+        <li><a href="cock.html">หอนาฬิกาหาดใหญ่</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section>
+    <!-- เนื้อหาเพิ่มเติมถ้ามี -->
+  </section>
+</body>
+</html>

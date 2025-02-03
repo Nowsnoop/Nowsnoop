@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Essential for responsive behavior -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MANAW HAD LEK</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mali:wght@600&family=Trirong:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Global Styles */
+      html {
+        background: url(2016-12-25.gif) no-repeat center center fixed;
+        background-size: cover;
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        font-family: Sriracha, cursive;
+      }
+
+      /* Navigation */
+      nav {
+        background: linear-gradient(to right, #53a4d3, #96d7ff, #35a4df);
+        padding: 12px 0;
+      }
+      nav ul {
+        margin: 0;
+        padding: 0 50px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      nav ul li {
+        margin: 5px;
+      }
+      nav ul img {
+        height: 65px;
+        background: white;
+        border-radius: 50%;
+        padding: 8px;
+        transition: box-shadow 0.3s;
+      }
+      nav ul img:hover {
+        box-shadow: 0px 0px 10px #ccc;
+      }
+      nav ul li a {
+        display: block;
+        padding: 25px 50px;
+        margin: 0 15px;
+        color: white;
+        text-decoration: none;
+        transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+      }
+      nav ul li a:hover {
+        background: white;
+        color: black;
+        box-shadow: 0px 0px 10px #ccc;
+      }
+
+      /* Header / Main Content */
+      header {
+        margin: 30px;
+        padding: 50px;
+        backdrop-filter: blur(5px);
+        text-align: center;
+      }
+      .big {
+        font-size: 50px;
+        color: rgb(30, 47, 139);
+        text-shadow: 2px 0px 0px rgb(106, 148, 163);
+        font-family: "Trirong", serif;
+        font-weight: 500;
+      }
+      .minia {
+        margin-top: 20px;
+      }
+      .minia .member {
+        font-size: 40px; /* Reduced from 80px to 40px */
+        font-family: "Mali", serif;
+        font-weight: 600;
+        color: rgb(75, 74, 121);
+        text-shadow: 2px 0px 0px rgb(143, 185, 201);
+        line-height: 1.2;
+      }
+      header p {
+        margin: 5px;
+      }
+      footer {
+        text-align: center;
+        margin: 10px 0;
+      }
+      footer p {
+        color: white;
+        font-size: 20px;
+      }
+
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        nav ul {
+          padding: 0 20px;
+          flex-direction: column;
+        }
+        nav ul li a {
+          padding: 15px 20px;
+          margin: 5px 0;
+        }
+        header {
+          padding: 30px;
+          margin: 20px;
+        }
+        .big {
+          font-size: 40px;
+        }
+        .minia .member {
+          font-size: 30px; /* Adjusted further for tablets */
+        }
+      }
+      @media (max-width: 480px) {
+        nav ul li a {
+          padding: 10px 15px;
+          font-size: 14px;
+        }
+        .big {
+          font-size: 32px;
+        }
+        .minia .member {
+          font-size: 24px; /* Adjusted further for mobile devices */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li>
+          <img src="ตรีจักร.png" alt="Logo" />
+        </li>
+        <li><a href="🥵🥵.html">ผู้จัดทำ</a></li>
+        <li><a href="DUM.html">สถานที่ท่องเที่ยว</a></li>
+        <li><a href="index.html">หน้าหลัก</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header / Main Content -->
+    <header>
+      <p class="big">ผู้จัดทำ</p>
+      <div class="minia">
+        <p class="member">
+          ด.ช.ขจรยศ นวลนุ่น เลขที่ 1<br />
+          ด.ช.ฐาปณวัชล์ รัตนไชยยันต์ เลขที่ 4<br />
+          ด.ช.ณฐกร ศรีเมือง เลขที่ 5<br />
+          ด.ญ.ณัฏฐ์ชนากานต์ ตั้งอารมณ์ เลขที่ 27<br />
+          ด.ญ.บุณยวีร์ บัวหลวง เลขที่ 30<br />
+          ด.ญ.พันเนตรทิพย์ รอดเกลี้ยง เลขที่ 32
+        </p>
+      </div>
+    </header>
+
+    <!-- Footer -->
+    <footer>
+      <p>Made by ผมเอง</p>
+    </footer>
+  </body>
+</html>
